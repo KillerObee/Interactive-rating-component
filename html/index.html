@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <div class="star">
+            <img src="../ressources/icon-star.svg" alt="star">
+        </div>
+        <div class="text">
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        </div>
+        <div class="rates">
+            <input onclick="rated1()" class="rate-button" id="rate-1" type="button" value="1">
+            <input onclick="rated2()" class="rate-button" id="rate-2" type="button" value="2">
+            <input onclick="rated3()" class="rate-button" id="rate-3" type="button" value="3">
+            <input onclick="rated4()" class="rate-button" id="rate-4" type="button" value="4">
+            <input onclick="rated5()" class="rate-button" id="rate-5" type="button" value="5">
+        </div>
+        <div onclick="print_rate()"  class="submit">
+            <a href="#">Submit</a>
+        </div>
+    </div>
+    <!--
+    <div class="card-rate">
+        <div class="hero">
+            <img src="../ressources/illustration-thank-you.svg" alt="Thank you">
+        </div>
+        <div class="rate">
+            <p>You selected 4 out of 5</p>
+        </div>
+        <div class="thank-you-text">
+            <h1>Thank You!</h1>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+        </div>
+    </div>
+    -->
+</body>
+</html>

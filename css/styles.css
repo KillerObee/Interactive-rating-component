@@ -1,0 +1,147 @@
+* {
+    /*Reset's every elements apperance*/
+    border: medium none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+    line-height: 1.5;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card, .card-rate{
+    box-shadow: rgba(52, 52, 53, 0.2) 0px 7px 29px 0px;
+    min-height: 300px;
+    display: flex;
+    max-width: 330px;
+    border-radius: 20px;
+    padding: 25px;
+    flex-direction: column;
+    background: radial-gradient(circle at top ,hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 45px;
+    width: 45px;
+    border-radius: 50px;
+    background-color: hsl(213, 19%, 18%);
+    margin-bottom: 25px;
+}
+
+.text, .thank-you-text{
+    margin-bottom: 25px;
+}
+
+.rates{
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+.rate-button{
+    text-align: center;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.rate-button:hover{
+    background-color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+
+.rate-button:focus{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    padding: 10px 0px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-align : center;
+}
+
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.submit:hover a{
+    color: hsl(25, 97%, 53%);
+}
+
+a{
+    color: white;
+}
+
+.card-rate{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero{
+    margin-bottom: 20px;
+}
+
+.rate{
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    padding: 3px 15px;
+    border-radius: 25px;
+}
+
+.rate p{
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you-text{
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.thank-you-text h1{
+    text-align: center;
+}
+
+.thank-you-text p{
+    text-align: center;
+}
+
+.error_message{
+    color: #FF4500;
+    text-align: center;
+    margin-top: 15px;
+}
